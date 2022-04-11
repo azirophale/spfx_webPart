@@ -1,0 +1,60 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.helloWorld {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: rgb(170, 154, 82);
+    // display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    // align-items: flex-start;
+  }
+  .header{
+    text-decoration: darken($color: #1a91c0, $amount: 0);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .redLabel{
+    background-color: rgb(233, 170, 170);
+  }
+  .greenlabel{
+    background-color: rgb(165, 228, 165);
+  }
+  .label{
+    background-color: rgb(70, 195, 204);
+  }
+
+  .counterDiv{
+    flex: auto;
+    align-items: center
+  }
+  .button2 {
+    background:#e6c9c9;
+    margin: 20px;
+    width: 50px;
+    border: none;
+    font-size: 25px;
+  }
+  .inpotBox{
+    border: none;
+    font-size: 25px;
+    margin: 10px;
+    width: 200px;
+    background-color: azure;
+  }
+  .button {
+    // Our button
+    // background: transparent;
+    background: cornflowerblue;
+    margin: 10px ;
+    border: transparent;
+    font-size:medium;
+   
+    // background-color: turquoise;
+    // color: yellow;
+  }
+}

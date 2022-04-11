@@ -1,0 +1,42 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.shoppingCart {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: rgb(241, 182, 104);
+    align-content: center;
+    align-items: center;
+  }
+  .header{
+    font-size: 35px;
+    color: rgb(195, 127, 250);
+    text-align: center;
+  }
+  .inputbox{
+    border: none;
+    background-color: rgb(222, 243, 236);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    margin: 15px;
+  }
+  .textarea{
+    margin: 15px;
+    border: none;
+    font-size: 20px;
+    min-width: 320px;
+    background-color: rgb(208, 238, 178);
+  }
+  
+
+  .button {
+    // Our button
+    text-decoration:darken($color: #000000, $amount: 0);
+    height: 32px;
+    border: none;
+    min-width: 100px;
+    color: cadetblue;
+  }
+}

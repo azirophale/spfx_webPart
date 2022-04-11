@@ -1,0 +1,83 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.studentMarks {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .header{
+    align-self: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+  .SubmitBTN{
+    font-size: 15px;
+    background-color:rgb(15, 238, 164);
+    justify-self: center;
+    align-self: center;
+    margin: 15px;
+  }
+  .tableText{
+    width: 100px;
+  }
+  .textBox{
+    font-size: 15px;
+    border: none;
+    margin: 3px;
+    box-shadow: none;
+  }
+  .table{
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 100%;
+    th {
+      background-color: #04AA6D;
+      color: white;
+    }
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+    }
+    tr:hover {background-color: rgb(233, 233, 114);}
+  }
+
+}
+
+.employee{
+  .header{
+    color: #04AA6D;
+  }
+ 
+  
+  .SubmitBTN{
+    font-size: 15px;
+    background-color:rgb(238, 15, 126);
+    justify-self: center;
+    align-self: center;
+    margin: 15px;
+  }
+  .textBox{
+    font-size: 15px;
+    border: none;
+    margin: 3px;
+    box-shadow: none;
+  }
+  .table{
+    background-color: rgb(39, 10, 78);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 100%;
+    th {
+      background-color: #ecf010;
+      color: rgb(255, 255, 255);
+    }
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+    }
+    tr:hover {background-color: rgb(160, 190, 214);}
+  }
+}
